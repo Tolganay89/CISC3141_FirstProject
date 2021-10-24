@@ -1,0 +1,172 @@
+#Header, a, a:hover {
+
+  text-decoration: none;
+}
+
+a img {
+  width:60px;
+  height: 30px;
+  background: #000000;
+}
+
+ul {
+  z-index:1;
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 ;
+  overflow: hidden;
+  width: 99%;
+  height: 44px;
+  background-color: #000000;
+  position: fixed;
+  padding-bottom: 78px;
+  background-image: url('https://thumbs.gfycat.com/AltruisticImpishAlabamamapturtle-max-1mb.gif');
+}
+
+
+ li {
+float: left;   
+ }
+
+
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;      /*  size of the buttom */
+   text-decoration: none;  /* to take out the underline and dot */
+ }
+
+
+
+
+
+nav ul li {
+  padding: 20px;
+}
+h1, h3 {
+  font-weight: bold;
+}
+
+.container-fluid {
+margin-top: 20px;;
+}
+
+ul li {
+  float: left;
+  
+}
+.side-img {
+  width: 100%;
+}
+
+.left {
+  background: whitesmoke;
+  padding: 50px;
+}
+.left > img {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.right {
+  background: whitesmoke;
+  font-size: 35px;
+  padding: 50px;
+}
+.middle {
+  background: whitesmoke;
+}
+.home-body {
+  /* top: 70px;
+  position: relative; */
+}
+.middle img {
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+}
+.fam-list {
+  padding: 30px;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+.footer-list {
+  text-align: left;
+}
+.footer-list li {
+  float:  none;
+}
+#Contact-Section {
+  background: black;
+  color: whitesmoke;
+  padding: 50px;
+}
+#arrow {
+  width: 50px;
+}
+
+/* table */
+table {
+  width: 400PX;
+  
+}
+
+table.cinereousTable {
+  border: 6px solid #948473;
+  background-color: #FFE3C6;
+  width: 700px;
+  text-align: center;
+}
+table.cinereousTable td, table.cinereousTable th {
+  border: 1px solid #948473;
+  padding: 4px 4px;
+}
+table.cinereousTable tbody td {
+  font-size: 20px;
+}
+table.cinereousTable thead {
+  background: #948473;
+  background: -moz-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: -webkit-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: linear-gradient(to bottom, #afa396 0%, #9e9081 66%, #948473 100%);
+}
+table.cinereousTable thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #F0F0F0;
+  text-align: left;
+  border-left: 2px solid #948473;
+}
+table.cinereousTable thead th:first-child {
+  border-left: none;
+}
+
+table.cinereousTable tfoot {
+  font-size: 16px;
+  font-weight: bold;
+  color: #F0F0F0;
+  background: #948473;
+  background: -moz-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: -webkit-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: linear-gradient(to bottom, #afa396 0%, #9e9081 66%, #948473 100%);
+}
+table.cinereousTable tfoot td {
+  font-size: 16px;
+}
+
+#bodytable >  .onlinestreams {
+  margin: auto;
+  width: 60px;
+  height: 60px;
+}
+.box {
+  height: 50px;
+  width: 300px;
+}
+/* break between sections */
+br {
+  line-height: 150%;
+}
